@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:windowSoftInputMode="adjustResize">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <EditText
+            android:id="@+id/editTex2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            android:breakStrategy="balanced"
+            android:ems="10"
+            android:gravity=""
+            android:hint="@string/multi_line"
+            android:inputType="textMultiLine"
+            android:background="@drawable/edit_text_border"
+            android:padding="10dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEDE8E8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share your recipe with others!"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/peralta"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Recipe"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Upload your recipe in four easy steps!"
+        android:layout_below="@id/button2"
+        android:fontFamily="@font/peralta"/>
+
+
+</RelativeLayout>
